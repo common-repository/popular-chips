@@ -1,0 +1,60 @@
+
+#poststuff #popular_chips.postbox .inside {
+	margin: 0;
+}
+
+#poststuff #popular_chips.postbox div.section,
+#poststuff #popular_chips.postbox div.section-last {
+	margin: 0;
+	padding: 6px;
+	border-bottom: 1px solid #EEEEEE;
+}
+#poststuff #popular_chips.postbox div.section-last {
+	border-bottom: none;
+}
+#poststuff #popular_chips.postbox .popular-chips-exclude-select,
+#poststuff #popular_chips.postbox #popular-chips-count-select {
+	line-height: 2.5em;
+	margin-top: 3px;
+}
+
+#poststuff #popular_chips.postbox .ranking {
+}
+#poststuff #popular_chips.postbox .number {
+	font-weight: bold;
+}
+
+#poststuff #popular_chips.postbox .note {
+	color: #666666;
+	font-size: 10px;
+}
+
+.widget #popular-chips-widget .post-type,
+.widget #popular-chips-widget .event-type {
+	margin: 0 0 1em;
+	font-size: 12px;
+}
+.widget #popular-chips-widget .post-type-field {
+	padding: 4px;
+	border: 1px solid #DFDFDF;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+.widget #popular-chips-widget .post-type-field p {
+	margin: 0;
+}
+
+
+/* あしかマーク */
+#copyright {
+	margin-top: 50px;
+	padding-top: 90px;
+	background: url('./images/footer_logo.png') no-repeat center top;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+	color: #CCCCCC;
+}
+#copyright a {
+	color: #CCCCCC;
+}

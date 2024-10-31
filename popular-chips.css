@@ -1,0 +1,74 @@
+
+#primary .widget.popular-chips-widget {
+	margin: 20px 0 0 2px;
+	padding: 0;
+}
+
+#primary .widget.popular-chips-widget ol {
+	margin-top: 5px;
+	list-style: none;
+}
+
+#primary .widget.popular-chips-widget ol li {
+	display: block;
+	margin: 0 0 1em;
+	padding: 4px;
+	zoom: 1;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #C0C0C0;
+}
+#primary .widget.popular-chips-widget ol li:before,
+#primary .widget.popular-chips-widget ol li:after {
+	content: "";
+	display: table;
+}
+#primary .widget.popular-chips-widget ol li:after {
+	clear: both;
+}
+
+#primary .widget.popular-chips-widget .rank {
+	float: left;
+	display: block;
+	padding: 0;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #C69C6D;
+	font-size: 12px;
+	word-spacing: 0;
+}
+#primary .widget.popular-chips-widget .event-report .rank {
+	color: #D04C48;
+}
+#primary .widget.popular-chips-widget .event-calendar .rank {
+	color: #556EB4;
+}
+#primary .widget.popular-chips-widget .link {
+	display: block;
+	margin-left: 28px;
+	padding-left: 5px;
+	line-height: 1em;
+	border-left: 3px solid #C69C6D;
+}
+#primary .widget.popular-chips-widget .event-report .link {
+	border-left-color: #D04C48;
+	color: #D04C48;
+}
+#primary .widget.popular-chips-widget .event-calendar .link {
+	border-left-color: #556EB4;
+	color: #556EB4;
+}
+#primary .widget.popular-chips-widget .date {
+	line-height: 1em;
+	font-size: 10px;
+	color: #C69C6D;
+}
+#primary .widget.popular-chips-widget .link a {
+	color: #4D4D4D;
+	line-height: 1.4em;
+	font-size: 11px;
+}
+
